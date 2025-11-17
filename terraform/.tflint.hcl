@@ -5,7 +5,7 @@
 # Enable TFLint ruleset plugin for terraform (200+ rules)
 plugin "terraform" {
     enabled = true
-    version = "0.13.0"
+    version = "latest"
     source  = "github.com/terraform-linters/tflint-ruleset-terraform"
 }
 

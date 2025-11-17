@@ -5,7 +5,7 @@
 # Enable TFLint ruleset plugin for azure (200+ rules)
 plugin "azurerm" {
     enabled = true
-    version = "0.30.0"
+    version = "latest"
     source  = "github.com/terraform-linters/tflint-ruleset-azurerm"
 }
 
