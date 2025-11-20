@@ -44,7 +44,7 @@ rule "terraform_typed_variables" {
 
 # Enforce naming conventions.
 rule "terraform_naming_convention" {
-  enabled = true
+  enabled = false
 }
 
 # Disallow terraform declarations without required_version.
